@@ -1,12 +1,8 @@
-import { TodoIcon } from './TodoIcon';
+import { TodoIcon } from "./TodoIcon";
 
-function CompleteIcon() {
-  return (
-    <TodoIcon
-      type="check"
-      color="green"
-    />
-  )
+function CompleteIcon({ completed, onComplete }) {
+  return <TodoIcon type="check" color={completed ? "green" : "gray"} 
+  onClick={onComplete}/>;
 }
 
-export { CompleteIcon }
+export { CompleteIcon };

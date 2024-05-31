@@ -1,11 +1,7 @@
-import { TodoIcon } from './TodoIcon';
-function DeleteIcon() {
-  return (
-    <TodoIcon
-      type="delete"
-      color="green"
-    />
-  )
+import { TodoIcon } from "./TodoIcon";
+function DeleteIcon( { onDelete } ) {
+  return <TodoIcon type="delete" color="grey" 
+  onClick={onDelete}/>;
 }
 
-export { DeleteIcon }
+export { DeleteIcon };
