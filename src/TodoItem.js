@@ -1,10 +1,9 @@
-import React from 'react'
 
-const TodoItem = () => {
+const TodoItem = (props) => {
   return (
     <li>
       <span>V</span>
-      <span>Tienes que creer en lo que haces para obtener lo que quieres</span>
+      <span>{props.text}</span>
       <span>X</span>
     </li>
   )

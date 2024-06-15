@@ -2,7 +2,7 @@ import React from 'react'
 
 const CreateTodoButton = () => {
   return (
-    <div>CreateTodoButton</div>
+    <button>CreateTodoButton</button>
   )
 }
 
