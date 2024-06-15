@@ -1,6 +1,10 @@
-# Getting Started with Create React App
+# Curso de React.js
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+¡Aprende a crear aplicaciones web interactivas con React.js! Trabaja con componentes, props, estilos CSS, estados y efectos de React. Implementa React Context, React Portals y almacenamiento con Local Storage.
+
+[Fuente principal del curso en Platzi](https://platzi.com/cursos/react/).
 
 ## Available Scripts
 
