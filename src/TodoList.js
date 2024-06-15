@@ -1,7 +1,7 @@
-
+import "./TodoList.css"
 const TodoList = (props) => {
   return (
-    <ul>{props.children}</ul>
+    <ul className="TodoList">{props.children}</ul>
   )
 }
 

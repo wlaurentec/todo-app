@@ -1,7 +1,8 @@
-
+import "./TodoSearch.css"
 const TodoSearch = () => {
   return (
-    <input placeholder="Ingresa una tarea"/>
+    <input placeholder="Ingresa una tarea"
+    className="TodoSearch"/>
   )
 }
 
